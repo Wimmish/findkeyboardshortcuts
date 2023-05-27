@@ -5,6 +5,12 @@
     "keyword": "kopieer",
     "OS": "macOS"
   },
+   {
+    "shortcut": "CMD + V",
+    "description": "Paste item",
+    "keyword": "plak",
+    "OS": "macOS"
+  },
   {
     "shortcut": "Ctrl+V",
     "description": "Paste item",
