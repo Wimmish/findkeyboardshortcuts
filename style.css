@@ -1,0 +1,238 @@
+/*
+Theme name: doque
+Version: 2.0
+Author: https://doque.nl
+*/
+
+h1,
+h2,
+h3,
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+/***
+defaults
+***/
+
+:root {
+  --black: #0d0d0d;
+  --green: rgb(10, 166, 109);
+  --grey: #c3c3c3;
+  --orange: #f0722e;
+  --coral: #df5b57;
+  --white: #fefefe;
+
+  --font-size-default: 1rem;
+  --font-size-small: 0.8rem;
+  --font-size-1: 1.3rem;
+  --font-size-2: 1.8rem;
+  --font-size-3: 2.8rem;
+
+  --line-height-default: 1.6rem;
+  --line-height-small: 1.2rem;
+  --line-height-1: 1.9rem;
+  --line-height-2: 2.2rem;
+  --line-height-3: 3.3rem;
+}
+
+body,
+html {
+  font-family: "Cousine", monospace;
+  font-size: 16px;
+  line-height: var(--line-height-default);
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+  margin: 30px 0;
+}
+
+h1 {
+  font-size: var(--font-size-3);
+  line-height: var(--line-height-3);
+}
+
+h2 {
+  font-size: var(--font-size-2);
+  line-height: var(--line-height-2);
+}
+
+h3 {
+  font-size: var(--font-size-1);
+  font-weight: 600;
+  line-height: var(--line-height-1);
+}
+
+main h2:after {
+  background: none repeat scroll 0 0 var(--coral);
+  bottom: 0.6rem;
+  content: "";
+  display: block;
+  height: 4px;
+  width: 80px;
+  margin: 0;
+}
+
+p {
+  font-size: var(--font-size-default);
+  line-height: var(--line-height-default);
+  margin-bottom: 1.3rem;
+}
+
+/***
+APP
+***/
+
+main {
+  box-sizing: border-box;
+  height: 100vh;
+  margin: 100px auto 0 auto;
+  position: relative;
+  width: 900px;
+}
+
+main h1 {
+  margin: 0 auto 50px auto;
+  text-align: center;
+  width: 800px;
+}
+
+main p {
+  text-align: center;
+}
+
+.app {
+  margin: 50px auto;
+  width: 500px;
+}
+
+#osOptions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.osOption {
+  background: var(--grey);
+  /* border: 2px solid var(--green); */
+  border-radius: 5px;
+  color: var(--black);
+  text-align: center;
+  width: 120px;
+}
+
+.osOption:hover {
+  cursor: pointer;
+}
+
+.selected {
+  background: var(--green);
+  color: var(--white);
+}
+
+.searchbox {
+  border: 2px solid var(--grey);
+  border-radius: 10px;
+  height: 40px;
+  position: relative;
+  width: 500px;
+}
+
+.searchbox input {
+  border: none;
+  font-family: "Cousine", monospace;
+  font-size: var(--font-size-default);
+  height: 30px;
+  line-height: 30px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+  width: 350px;
+}
+
+.searchbox input:focus {
+  border-radius: 10px;
+  box-sizing: border-box;
+  height: 40px;
+  left: 0;
+  outline: 2px solid var(--green);
+  padding: 0 10px;
+  top: 0;
+  width: 500px;
+  z-index: 1;
+}
+
+.searchbox span {
+  background: var(--grey);
+  border-radius: 5px;
+  color: var(--black);
+  height: 30px;
+  line-height: 34px;
+  position: absolute;
+  right: 5px;
+  text-align: center;
+  top: 5px;
+  vertical-align: middle;
+  width: 20px;
+}
+
+#resultsContainer {
+  box-sizing: border-box;
+  margin: 10px auto;
+  padding: 5px;
+  width: 500px;
+}
+
+#resultsContainer > div {
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-template-rows: 1;
+  margin-bottom: 10px;
+  /* width: 500px; */
+}
+
+.shortcut,
+.textBackground {
+  background: var(--green);
+  color: var(--white);
+}
+
+.description {
+  grid-column: 2;
+}
+
+.shortcut {
+  border-radius: 5px;
+  display: inline-block;
+  /* font-weight: bold; */
+  grid-column: 1;
+  /* height: 24px; */
+  margin-right: 10px;
+  /* padding: 2px 5px; */
+}
+
+.shortcut,
+.description {
+  box-sizing: border-box;
+  padding: 2px 5px;
+}
+
+.textBackground {
+  border-radius: 15px;
+  padding: 4px 10px;
+}
