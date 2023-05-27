@@ -85,13 +85,25 @@ searchInput.addEventListener("input", handleSearchInput);
 searchInput.addEventListener("blur", clearSearch);
 
 function handleKeyDown(event) {
-  if (event.key === "/") {
-    event.preventDefault();
+  const key = event.key;
+
+  if (key === "/") {
+    event.preventDefault(); // Prevent '/' character from being typed in the search box
     const searchInput = document.getElementById("searchInput");
     searchInput.focus();
-  } else if (event.key === "Escape") {
+  } else if (key === "Escape") {
     const searchInput = document.getElementById("searchInput");
-    searchInput.blur();
+    searchInput.blur(); // Remove focus from search box
+  } else if (key >= "1" && key <= "3") {
+    const osOptions = document.querySelectorAll(".osOption");
+    const selectedOption = document.querySelector(".osOption.selected");
+
+    const selectedIndex = parseInt(key) - 1;
+    if (selectedIndex >= 0 && selectedIndex < osOptions.length) {
+      selectedOption.classList.remove("selected");
+      osOptions[selectedIndex].classList.add("selected");
+      handleSearchInput();
+    }
   }
 }
 
