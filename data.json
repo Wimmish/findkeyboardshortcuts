@@ -1,0 +1,26 @@
+[
+  {
+    "shortcut": "CMD + C",
+    "description": "Copy",
+    "keyword": "kopieer",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Ctrl+V",
+    "description": "Paste item",
+    "keyword": "test",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Ctrl+Z",
+    "description": "Undo",
+    "keyword": "correct ugh",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "CMD + Option + ]",
+    "description": "Find items in a document or open a Find window",
+    "keyword": "search",
+    "OS": "macOS"
+  }
+]
