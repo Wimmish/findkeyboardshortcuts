@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Item Search</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <h1>Find Keyboard Shortcuts</h1>
+      <p>
+        Keyboard shortcuts help you to get more Mac, PC and iPad, and to do things faster. Find the most used keyboard
+        shortcuts by selecting the OS and typing what you want to do. For example: "Find items in a document or open a
+        Find window" or "Search".
+      </p>
+      <div class="app">
+        <!-- <select id="osSelect">
+          <option value="macOS">macOS</option>
+          <option value="iPadOS">iPadOS</option>
+          <option value="Windows">Windows</option>
+        </select> -->
+        <div id="osOptions">
+          <div class="osOption selected" data-value="macOS">macOS</div>
+          <div class="osOption" data-value="iPadOS">iPadOS</div>
+          <div class="osOption" data-value="Windows">Windows</div>
+        </div>
+        <div class="searchbox">
+          <input type="text" id="searchInput" placeholder="Search..." />
+          <span>/</span>
+          <!-- <button id="clearButton">Clear</button> -->
+        </div>
+
+        <div id="resultsContainer"></div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
