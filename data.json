@@ -1,32 +1,1117 @@
 [
+  { "shortcut": "CMD + ;", "description": "Find misspelled words in the document.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + [", "description": "Go backward in browser history.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + [", "description": "Go to the previous tab.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + ]", "description": "Go forward in browser history.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + ]", "description": "Go to the next tab.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + 1", "description": "Finder: view items as Icon.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + 2", "description": "Finder: view as List.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + 3", "description": "Finder: view items  as Columns.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + 4", "description": "Finder: view items as Cover Flow.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + A", "description": "Select all items in a document or window.", "keyword": "", "OS": "macOS" },
   {
-    "shortcut": "CMD + C",
-    "description": "Copy",
-    "keyword": "kopieer",
+    "shortcut": "CMD + Accent (`)",
+    "description": "Activate the next open window in the frontmost application.",
+    "keyword": "",
     "OS": "macOS"
   },
-   {
-    "shortcut": "CMD + V",
-    "description": "Paste item",
-    "keyword": "plak",
+  {
+    "shortcut": "CMD + Accent (`)",
+    "description": "Cycle through open windows of an app.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + B", "description": "Bold", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + C", "description": "Copy to clipboard.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + C", "description": "Copy the selected data to the Clipboard.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + click the window title",
+    "description": "Finder: see the folders that contain the current window.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Comma (,)", "description": "Open app settings/preferences.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Control + C",
+    "description": "Copy the formatting settings of the selected item and store on the Clipboard.",
+    "keyword": "",
     "OS": "macOS"
   },
   {
-    "shortcut": "Ctrl+V",
-    "description": "Paste item",
-    "keyword": "plak",
+    "shortcut": "CMD + Control + D",
+    "description": "Display the definition of the selected word in the Dictionary application.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Control + I", "description": "Finder: get Summary Info.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Control + Up Arrow",
+    "description": "Finder: open the folder that contains the current folder in a new window.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Control + V",
+    "description": "Apply formatting settings to the selected object.",
+    "keyword": "Paste",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + D",
+    "description": "Selects the Desktop folder in Open and Save dialogs.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + D", "description": "Duplicate selected item in Finder.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Delete", "description": "Finder: move to Trash.", "keyword": "Backspace", "OS": "macOS" },
+  {
+    "shortcut": "CMD + double-click",
+    "description": "Finder: open a folder in a separate tab.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Down Arrow",
+    "description": "Move the cursor to the end of the document.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Down Arrow", "description": "Finder: open highlighted item.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + E",
+    "description": "Copy the selection for use with the Find function (Command + F).",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + E", "description": "Eject", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + F", "description": "Find", "keyword": "Search", "OS": "macOS" },
+  { "shortcut": "CMD + F", "description": "Open a Find window.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + F",
+    "description": "Find any matching Spotlight attribute in Finder.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + F3", "description": "Hide or show all open windows.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + G", "description": "Find the next occurrence of the selection.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + H", "description": "Hide the currently active window.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + I", "description": "Italicize", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + I", "description": "Finder: get Info.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + J", "description": "Scroll to a selection.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + J", "description": "Finder: show View Options.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + K", "description": "Finder: connect to Server.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Left Arrow",
+    "description": "Move the cursor to the beginning of the current line.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + M", "description": "Minimize window.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + M", "description": "Minimize window.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Minus (-)",
+    "description": "Decrease the size of the selected item.",
+    "keyword": "Zoom",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + N", "description": "New", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + N",
+    "description": "Create a new document in the frontmost application.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + O",
+    "description": "Display a dialog for choosing a document to open in the frontmost application.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + O", "description": "Finder: open selected item.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Option + /", "description": "Turn font smoothing on or off.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Option + A", "description": "Deselect all items.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Option + Accent (`)",
+    "description": "Move focus to the window drawer.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Option + C",
+    "description": "Copy the style of the selected text.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Option + Control + ,",
+    "description": "Decrease screen contrast.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Option + Control + .",
+    "description": "Increase screen contrast.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Option + D", "description": "Show or hide the Dock.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Option + Esc", "description": "Force Quit.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Option + F",
+    "description": "Finder: navigate to the search field in an already-open Spotlight window.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Option + H",
+    "description": "Hide all windows except the currently active one.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Option + H + M",
+    "description": "Hide all windows except the currently active one and minimize the active window.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Option + I", "description": "Finder: show Inspector.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Option + M", "description": "Minimize all windows.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Option + Space bar",
+    "description": "Show the�Spotlight search results�window (if multiple languages are installed, may rotate through keyboard layouts and input methods within a script).",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Option + T", "description": "Show or hide a toolbar.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Option + V", "description": "Paste Style.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Option + W", "description": "Close all windows.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Option + Y", "description": "Finder: slideshow", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Option",
+    "description": "Finder: make alias (shortcut) of dragged item.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + P", "description": "Print", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + P", "description": "Display the Print dialog.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Q", "description": "Quit", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Q", "description": "Quit the current application.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + R", "description": "Show original (of alias).", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Right Arrow",
+    "description": "Move the cursor to the end of the current line.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + S", "description": "Save", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + S", "description": "Save", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift +", "description": "Center-align a selection.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + :", "description": "Display the Spelling window.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + [", "description": "Left-align a selection.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + ]", "description": "Right-align a selection.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Shift + =",
+    "description": "Increase the size of the selected item.",
+    "keyword": "Zoom",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Shift + 3", "description": "Capture the screen.", "keyword": "Screenshot", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Shift + 4",
+    "description": "Capture a selection of the screen.",
+    "keyword": "Screenshot",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Shift + A", "description": "Open the Applications folder.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + C", "description": "Display the Colors window.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + C", "description": "Open the Computer window in Finder.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Shift + Control + 3",
+    "description": "Capture the screen to the Clipboard.",
+    "keyword": "Screenshot",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Shift + Control + 4",
+    "description": "Capture a selection of the screen to the clipboard.",
+    "keyword": "Screenshot",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Shift + D", "description": "Open desktop folder in Finder.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + Delete", "description": "Finder: empty Trash.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Shift + Down Arrow",
+    "description": "Select text between the insertion point and the end of the document.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Shift + F",
+    "description": "Find Spotlight file name matches in Finder.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Shift + G",
+    "description": "Find the previous occurrence of the selection.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Shift + G", "description": "Go to Folder.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Shift + H",
+    "description": "Finder: open the Home folder of the currently�logged-in user account.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Shift + I", "description": "Finder: open iCloud Drive.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + K", "description": "Finder: open Network window.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Shift + Left Arrow",
+    "description": "Select text between the insertion point and the beginning of the current line.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Shift + N", "description": "Finder: new folder.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Shift + Option + Delete",
+    "description": "Finder: empty Trash without confirmation dialog.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Shift + Option + Esc",
+    "description": "Force Quit�the current application.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Shift + Option + Q", "description": "Log out immediately.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + Option + V", "description": "Paste and Match Style.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + Q", "description": "Log out.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + Question Mark (?)", "description": "Open the Help menu.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Shift + Right Arrow",
+    "description": "Select text between the insertion point and the end of the current line.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Shift + S", "description": "Display the Save As dialog.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + T", "description": "Show Tab Bar.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Shift + U", "description": "Open Utilities folder.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Shift + Up Arrow",
+    "description": "Select text between the insertion point and the beginning of the document.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Shift + Up Arrow",
+    "description": "Finder: open the Computer pane in a new tab or window.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Shift + Z", "description": "Redo", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Shift +�Tab",
+    "description": "Move backward through a list of open applications (sorted by recent use).",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + Shift+ Z", "description": "Redo", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Spacebar",
+    "description": "Show or hide the Spotlight search field (if multiple languages are installed, may rotate through enabled script systems).",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + T",
+    "description": "Depending the app: display the Fonts window or add a new tab.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Tab",
+    "description": "Move forward to the next most recently-used application in a list of open applications.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + U", "description": "Underline", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + Up Arrow",
+    "description": "Move the cursor to the beginning of the document.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "CMD + Up Arrow",
+    "description": "Open the folder that contains the current folder.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "CMD + V", "description": "Paste from clipboard.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + W", "description": "Close window.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + X", "description": "Cut to clipboard.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Z", "description": "Undo", "keyword": "", "OS": "macOS" },
+  { "shortcut": "CMD + Z", "description": "Undo", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD +�Shift + Accent (`)",
+    "description": "Activate the previous open window in the frontmost application.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "Control + A", "description": "Move to beginning of line/paragraph.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "Control + B", "description": "Move one character backward.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "Control + D", "description": "Forward Delete.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "Control + Down arrow",
+    "description": "Show the open windows for the currently active app.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Control + Down Arrow",
+    "description": "Move focus to another value or cell within a view, such as a table.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "Control + E", "description": "Move to end of line/paragraph.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "Control + F", "description": "Move one character forward.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "Control + F3",
+    "description": "Show the open windows for the currently active app.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Control + H",
+    "description": "Delete the character behind the cursor.",
+    "keyword": "Backspace",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Control + K",
+    "description": "Delete from the character in front of the cursor to the end of the line/paragraph.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Control + L",
+    "description": "Center the cursor/selection in the visible area.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Control + Left Arrow",
+    "description": "Move focus to another value or cell within a view, such as a table.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "Control + N", "description": "Move down one line.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "Control + O", "description": "Insert a new line after the cursor.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "Control + Option + Spacebar",
+    "description": "Toggle through all enabled input sources.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "Control + P", "description": "Move up one line.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "Control + Right Arrow",
+    "description": "Move focus to another value or cell within a view, such as a table.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Control + Spacebar",
+    "description": "Toggle between the current and previous input sources.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Control + T",
+    "description": "Transpose the character behind the cursor and the character in front of the cursor.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Control + Tab",
+    "description": "Move focus to the next grouping of controls in a dialog or the next table (when Tab moves to the next cell).",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "Control + Up arrow", "description": "Open Mission Control.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "Control + Up Arrow",
+    "description": "Move focus to another value or cell within a view, such as a table.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "Control + V", "description": "Move down one page.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "F3", "description": "Open Mission Control.", "keyword": "", "OS": "macOS" },
+  { "shortcut": "Fn + Delete", "description": "Forward Delete.", "keyword": "Backspace", "OS": "macOS" },
+  {
+    "shortcut": "Left Arrow (in List view)",
+    "description": "Finder: close the selected folder.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Option + click the disclosure triangle (in List view)",
+    "description": "Finder: open all folders within the selected folder",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Option + Delete",
+    "description": "Delete all words on a line to the left of the cursor.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Option + double-click",
+    "description": "Finder: open a folder in a separate tab or window, closing the current window.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Option + Left Arrow",
+    "description": "Move the cursor to the beginning of the previous word.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Option + Right Arrow",
+    "description": "Move the cursor to the end of the next word.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Option key while dragging",
+    "description": "Finder: copy dragged item.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Right Arrow (in�List view)",
+    "description": "Finder: open the selected folder.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Shift + Control + Tab",
+    "description": "Move focus to the previous grouping of controls.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Shift + Down Arrow",
+    "description": "Extend text selection to the line below, to the nearest character boundary at the same horizontal location.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Shift + Left Arrow",
+    "description": "Extend text selection one character to the left.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Shift + Option + Down Arrow",
+    "description": "Extend text selection to the end of the current paragraph or previous paragraph.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Shift + Option + Left Arrow",
+    "description": "Extend text selection to the beginning of the current word or next word on the left.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Shift + Option + Right Arrow",
+    "description": "Extend text selection to the end of the current word or next word on the right.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Shift + Option + Up Arrow",
+    "description": "Extend text selection to the beginning of the current paragraph or next paragraph.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Shift + Right Arrow",
+    "description": "Extend text selection one character to the right.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Shift + Tab",
+    "description": "Navigate through controls in a reverse direction.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Shift + Up Arrow",
+    "description": "Extend text selection to the line above, to the nearest character boundary at the same horizontal location.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  { "shortcut": "Spacebar", "description": "Finder: quick Look selected item.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "Alt + A",
+    "description": "Set focus to the first icon in the Suggested actions menu.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Alt + D", "description": "File Explorer: select the address bar.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Alt + Enter",
+    "description": "Display properties for the selected item.",
+    "keyword": "",
     "OS": "Windows"
   },
   {
-    "shortcut": "Ctrl+Z",
-    "description": "Undo",
-    "keyword": "correct ugh",
+    "shortcut": "Alt + Enter",
+    "description": "File Explorer: open the Properties dialog box for the selected item.",
+    "keyword": "",
     "OS": "Windows"
   },
   {
-    "shortcut": "CMD + Option + ]",
-    "description": "Find items in a document or open a Find window",
-    "keyword": "search",
-    "OS": "macOS"
-  }
+    "shortcut": "Alt + Esc",
+    "description": "Cycle through items in the order in which they were opened.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Alt + F4",
+    "description": "Close the active item, or exit the active app.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Alt + F8",
+    "description": "Show your password on the sign-in screen.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Alt + Left arrow", "description": "Go back.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Alt + Left arrow",
+    "description": "File Explorer: view the previous folder.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Alt + P", "description": "Display the preview (print) panel.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Alt + Page Down", "description": "Move down one screen.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Alt + Page Up", "description": "Move up one screen.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Alt + Right arrow", "description": "Go forward.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Alt + Right arrow",
+    "description": "File Explorer: view the next folder.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Alt + selection key",
+    "description": "Begin selection in block mode.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Alt + Spacebar",
+    "description": "Open the shortcut menu for the active window.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Alt + Tab", "description": "Switch between open apps.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Alt + underlined letter",
+    "description": "Perform the command for that letter.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Alt + Up arrow",
+    "description": "File Explorer: view the folder that the folder was in.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Backspace",
+    "description": "File Explorer: view the previous folder.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Ctrl + 1, 2, 3,...", "description": "Move to that tab number.�", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Ctrl + A",
+    "description": "Select all items in a document or window.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Ctrl + Alt + Tab",
+    "description": "Use the arrow keys to switch between all open apps.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Ctrl + C", "description": "Copy the selected item.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + C", "description": "Copy the selected text.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Ctrl + click a grouped taskbar button",
+    "description": "Cycle through the windows of the group.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Ctrl + D",
+    "description": "Delete the selected item and move it to the Recycle Bin.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Ctrl + Down arrow",
+    "description": "Move the cursor to the beginning of the next paragraph.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Ctrl + E", "description": "Open Search (in most apps).", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + E", "description": "Select the search box.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + Esc", "description": "Open Start.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + F", "description": "Select the search box.", "keyword": "Find", "OS": "Windows" },
+  {
+    "shortcut": "Ctrl + F4",
+    "description": "Close the active document (in apps that are full-screen and let you have multiple documents open at the same time).",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Ctrl + F5", "description": "Refresh the active window.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Ctrl + Left arrow",
+    "description": "Move the cursor to the beginning of the previous word.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Ctrl + M", "description": "Enter Mark mode.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Ctrl + mouse scroll wheel",
+    "description": "Change the size and appearance of file and folder icons.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Ctrl + N", "description": "Open a new window.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + R", "description": "Refresh the active window.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Ctrl + Right arrow",
+    "description": "Move the cursor to the beginning of the next word.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Ctrl + Shift",
+    "description": "Switch the keyboard layout when multiple keyboard layouts are available.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Ctrl + Shift + click a taskbar button",
+    "description": "Open an app as an administrator.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Ctrl + Shift + E",
+    "description": "Display all folders above the selected folder.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Ctrl + Shift + Esc", "description": "Open Task Manager.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + Shift + mouse scroll wheel", "description": "Side scrolling.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + Shift + N", "description": "Create a new folder.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + Shift + Tab", "description": "Move to the previous tab.�", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Ctrl + Shift with an arrow key",
+    "description": "Select a block of text.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Ctrl + Spacebar",
+    "description": "Turn the Chinese input method editor (IME) on or off.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Ctrl + T", "description": "Open a new tab and switch to it.�", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + Tab", "description": "Move to the next tab.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Ctrl + Up arrow",
+    "description": "Move the cursor to the beginning of the previous paragraph.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Ctrl + V", "description": "Paste the selected item.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + V", "description": "Paste the selected text.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Ctrl + W",
+    "description": "Closes the active tab. Closes the window if there's only one tab open.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Ctrl + X", "description": "Cut the selected item.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + Y", "description": "Redo an action.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + Z", "description": "Undo an action.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "End", "description": "Display the bottom of the active window.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Esc", "description": "Stop or leave the current task.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "F10", "description": "Activate the Menu bar in the active app.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "F11", "description": "Maximize or minimize the active window.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "F2", "description": "Rename the selected item.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "F3", "description": "Search for a file or folder in File Explorer.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "F4", "description": "Display the address bar list in File Explorer.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "F5", "description": "Refresh the active window.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "F6",
+    "description": "Cycle through screen elements in a window or on the desktop.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Home", "description": "Display the top of the active window.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Left arrow",
+    "description": "File Explorer: collapse the current selection (if it's expanded), or select the folder that the folder was in.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Num Lock + *",
+    "description": "File Explorer: display all subfolders under the selected folder.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Num Lock + minus (-)",
+    "description": "File Explorer: collapse the selected folder.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Num Lock + plus (+)",
+    "description": "Display the contents of the selected folder.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "PrtScn",
+    "description": "Take a screenshot of your whole screen and copy it to the clipboard.�",
+    "keyword": "Printscreen screenshot",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Right arrow",
+    "description": "File Explorer: display the current selection (if it's collapsed), or select the first subfolder.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Shift + arrow key",
+    "description": "Select more than one item in a window or on the desktop, or select text in a document.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Shift + click a taskbar button",
+    "description": "Open an app or quickly open another instance of an app.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Shift + Delete",
+    "description": "Delete the selected item without moving it to the Recycle Bin first.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Shift + F10",
+    "description": "Display the shortcut menu for the selected item.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Shift + right-click a grouped taskbar button",
+    "description": "Show the window menu for the group.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Shift + right-click a taskbar button",
+    "description": "Show the window menu for the app.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows", "description": "Open search (start typing)", "keyword": "Find", "OS": "Windows" },
+  { "shortcut": "Windows + ;", "description": "Open emoji panel.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows�", "description": "Open or close Start.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + A", "description": "Open Quick Settings.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Alt + B", "description": "Turn HDR on or off.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + Alt + Down arrow",
+    "description": "Snap window in focus to bottom half of screen.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Alt + Enter",
+    "description": "Open taskbar settings. (on focus taskbar)",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Alt + K",
+    "description": "Toggle microphone mute in apps that support Call Mute.�Available starting in Windows 11, version 22H2.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Alt + number",
+    "description": "Open the desktop and open the Jump List for the app pinned to the taskbar in the position indicated by the number.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Alt + PrtScn",
+    "description": "Save screenshot of game window in focus to file (using Xbox Game Bar).",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Alt + R",
+    "description": "Record video of game window in focus (using Xbox Game Bar).",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Alt + Up arrow",
+    "description": "Snap window in focus to top half of screen.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + B",
+    "description": "Set focus to the first icon in the Taskbar corner.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + C", "description": "Open Chat from Microsoft Teams.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + comma (,)",
+    "description": "Temporarily peek at the desktop.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Ctrl + C",
+    "description": "Turn on color filters (enable this shortcut first in Color Filter settings).",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + Ctrl + D", "description": "Add a virtual desktop.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Ctrl + Enter", "description": "Turn on Narrator.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + Ctrl + F",
+    "description": "Search for PCs (if you're on a network).",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Ctrl + F4",
+    "description": "Close the virtual desktop you're using.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Ctrl + Left arrow",
+    "description": "Switch between virtual desktops you�ve created on the left.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Ctrl + number",
+    "description": "Open the desktop and switch to the last active window of the app pinned to the taskbar in the position indicated by the number.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + Ctrl + Q", "description": "Open�Quick Assist.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + Ctrl + Right arrow",
+    "description": "Switch between virtual desktops you�ve created on the right.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Ctrl + Shift + B",
+    "description": "Wake PC from blank or black screen.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Ctrl + Shift + number",
+    "description": "Open the desktop and open a new instance of the app located at the given position on the taskbar as an administrator.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Ctrl + Spacebar",
+    "description": "Change to a previously selected input.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + D", "description": "Display and hide the desktop.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + D", "description": "Display and hide the desktop.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + Down arrow",
+    "description": "Remove current app from screen or minimize the desktop window.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + E", "description": "Open File Explorer.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Esc", "description": "Close Magnifier.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + F",
+    "description": "Open Feedback Hub and take a screenshot.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + forward slash (/)",
+    "description": "Begin IME reconversion.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + G",
+    "description": "Open Xbox Game Bar when a game is open.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + H", "description": "Launch voice typing.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + Home",
+    "description": "Minimize all except the active desktop window (restores all windows on second stroke).",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + I", "description": "Open Settings.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + I", "description": "Open settings.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + K", "description": "Open Cast from Quick Settings.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + L", "description": "Lock your PC.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + L", "description": "Lock your PC or switch accounts.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + Left arrow",
+    "description": "Maximize the app or desktop window to the left side of the screen.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + M", "description": "Minimize all windows.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Minus (-)", "description": "Zoom out in Magnifier.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + N",
+    "description": "Open notification center and calendar.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + number",
+    "description": "Open the desktop and start the app pinned to the taskbar in the position indicated by the number. If the app is already running, switch to that app.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + O", "description": "Lock device orientation.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + P", "description": "Choose a presentation display mode.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + period (.)", "description": "Open emoji panel.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Plus (+)", "description": "Open Magnifier and zoom in.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + PrtScn",
+    "description": "Save full screen screenshot to file.",
+    "keyword": "Printscreen screenshot",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + R", "description": "Open the Run dialog box.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + Right arrow",
+    "description": "Maximize the app or desktop window to the right side of the screen.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + S", "description": "Open search.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Shift + C", "description": "Open the charms menu.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + Shift + Down arrow",
+    "description": "Restore/minimize active desktop windows vertically, maintaining width.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Shift + Left arrow or Right arrow",
+    "description": "Move an app or window in the desktop from one monitor to another.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Shift + M",
+    "description": "Restore minimized windows on the desktop.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Shift + number",
+    "description": "Open the desktop and start a new instance of the app pinned to the taskbar in the position indicated by the number.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Shift + S",
+    "description": "Take a screenshot of part of�your screen.",
+    "keyword": "Printscreen",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Shift + Spacebar",
+    "description": "Cycle backwards through language and keyboard layout.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  {
+    "shortcut": "Windows + Shift + Up arrow",
+    "description": "Stretch the desktop window to the top and bottom of the screen.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + Shift + V", "description": "Set focus to a�notification.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + Spacebar",
+    "description": "Switch input language and keyboard layout.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + T", "description": "Cycle through apps on the taskbar.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Tab", "description": "Open Task view.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Tab", "description": "Open Task view.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + U", "description": "Open Accessibility Settings.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Up arrow", "description": "Maximize the window.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + V",
+    "description": "Open the clipboard history.�",
+    "keyword": "clipboard manager",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + W", "description": "Open Widgets.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + X", "description": "Open the Quick Link menu.", "keyword": "", "OS": "Windows" },
+  {
+    "shortcut": "Windows + Y",
+    "description": "Switch input between Windows Mixed Reality and your desktop.",
+    "keyword": "",
+    "OS": "Windows"
+  },
+  { "shortcut": "Windows + Z", "description": "Open the snap layouts.", "keyword": "", "OS": "Windows" }
 ]
