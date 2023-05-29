@@ -178,7 +178,7 @@
   { "shortcut": "CMD + Option + M", "description": "Minimize all windows.", "keyword": "", "OS": "macOS" },
   {
     "shortcut": "CMD + Option + Space bar",
-    "description": "Show the�Spotlight search results�window (if multiple languages are installed, may rotate through keyboard layouts and input methods within a script).",
+    "description": "Show the Spotlight search results window (if multiple languages are installed, may rotate through keyboard layouts and input methods within a script).",
     "keyword": "",
     "OS": "macOS"
   },
@@ -260,7 +260,7 @@
   { "shortcut": "CMD + Shift + G", "description": "Go to Folder.", "keyword": "", "OS": "macOS" },
   {
     "shortcut": "CMD + Shift + H",
-    "description": "Finder: open the Home folder of the currently�logged-in user account.",
+    "description": "Finder: open the Home folder of the currently logged-in user account.",
     "keyword": "",
     "OS": "macOS"
   },
@@ -281,7 +281,7 @@
   },
   {
     "shortcut": "CMD + Shift + Option + Esc",
-    "description": "Force Quit�the current application.",
+    "description": "Force Quit the current application.",
     "keyword": "",
     "OS": "macOS"
   },
@@ -312,7 +312,7 @@
   },
   { "shortcut": "CMD + Shift + Z", "description": "Redo", "keyword": "", "OS": "macOS" },
   {
-    "shortcut": "CMD + Shift +�Tab",
+    "shortcut": "CMD + Shift + Tab",
     "description": "Move backward through a list of open applications (sorted by recent use).",
     "keyword": "",
     "OS": "macOS"
@@ -355,7 +355,7 @@
   { "shortcut": "CMD + Z", "description": "Undo", "keyword": "", "OS": "macOS" },
   { "shortcut": "CMD + Z", "description": "Undo", "keyword": "", "OS": "macOS" },
   {
-    "shortcut": "CMD +�Shift + Accent (`)",
+    "shortcut": "CMD + Shift + Accent (`)",
     "description": "Activate the previous open window in the frontmost application.",
     "keyword": "",
     "OS": "macOS"
@@ -493,7 +493,7 @@
     "OS": "macOS"
   },
   {
-    "shortcut": "Right Arrow (in�List view)",
+    "shortcut": "Right Arrow (in List view)",
     "description": "Finder: open the selected folder.",
     "keyword": "",
     "OS": "macOS"
@@ -644,7 +644,7 @@
     "keyword": "",
     "OS": "Windows"
   },
-  { "shortcut": "Ctrl + 1, 2, 3,...", "description": "Move to that tab number.�", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + 1, 2, 3,...", "description": "Move to that tab number.", "keyword": "", "OS": "Windows" },
   {
     "shortcut": "Ctrl + A",
     "description": "Select all items in a document or window.",
@@ -730,7 +730,7 @@
   { "shortcut": "Ctrl + Shift + Esc", "description": "Open Task Manager.", "keyword": "", "OS": "Windows" },
   { "shortcut": "Ctrl + Shift + mouse scroll wheel", "description": "Side scrolling.", "keyword": "", "OS": "Windows" },
   { "shortcut": "Ctrl + Shift + N", "description": "Create a new folder.", "keyword": "", "OS": "Windows" },
-  { "shortcut": "Ctrl + Shift + Tab", "description": "Move to the previous tab.�", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + Shift + Tab", "description": "Move to the previous tab.", "keyword": "", "OS": "Windows" },
   {
     "shortcut": "Ctrl + Shift with an arrow key",
     "description": "Select a block of text.",
@@ -743,7 +743,7 @@
     "keyword": "",
     "OS": "Windows"
   },
-  { "shortcut": "Ctrl + T", "description": "Open a new tab and switch to it.�", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Ctrl + T", "description": "Open a new tab and switch to it.", "keyword": "", "OS": "Windows" },
   { "shortcut": "Ctrl + Tab", "description": "Move to the next tab.", "keyword": "", "OS": "Windows" },
   {
     "shortcut": "Ctrl + Up arrow",
@@ -803,7 +803,7 @@
   },
   {
     "shortcut": "PrtScn",
-    "description": "Take a screenshot of your whole screen and copy it to the clipboard.�",
+    "description": "Take a screenshot of your whole screen and copy it to the clipboard.",
     "keyword": "Printscreen screenshot",
     "OS": "Windows"
   },
@@ -851,7 +851,7 @@
   },
   { "shortcut": "Windows", "description": "Open search (start typing)", "keyword": "Find", "OS": "Windows" },
   { "shortcut": "Windows + ;", "description": "Open emoji panel.", "keyword": "", "OS": "Windows" },
-  { "shortcut": "Windows�", "description": "Open or close Start.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows", "description": "Open or close Start.", "keyword": "", "OS": "Windows" },
   { "shortcut": "Windows + A", "description": "Open Quick Settings.", "keyword": "", "OS": "Windows" },
   { "shortcut": "Windows + Alt + B", "description": "Turn HDR on or off.", "keyword": "", "OS": "Windows" },
   {
@@ -868,7 +868,7 @@
   },
   {
     "shortcut": "Windows + Alt + K",
-    "description": "Toggle microphone mute in apps that support Call Mute.�Available starting in Windows 11, version 22H2.",
+    "description": "Toggle microphone mute in apps that support Call Mute. Available starting in Windows 11, version 22H2.",
     "keyword": "",
     "OS": "Windows"
   },
@@ -931,7 +931,7 @@
   },
   {
     "shortcut": "Windows + Ctrl + Left arrow",
-    "description": "Switch between virtual desktops you�ve created on the left.",
+    "description": "Switch between virtual desktops you've created on the left.",
     "keyword": "",
     "OS": "Windows"
   },
@@ -941,10 +941,10 @@
     "keyword": "",
     "OS": "Windows"
   },
-  { "shortcut": "Windows + Ctrl + Q", "description": "Open�Quick Assist.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Ctrl + Q", "description": "Open Quick Assist.", "keyword": "", "OS": "Windows" },
   {
     "shortcut": "Windows + Ctrl + Right arrow",
-    "description": "Switch between virtual desktops you�ve created on the right.",
+    "description": "Switch between virtual desktops you've created on the right.",
     "keyword": "",
     "OS": "Windows"
   },
@@ -1071,7 +1071,7 @@
   },
   {
     "shortcut": "Windows + Shift + S",
-    "description": "Take a screenshot of part of�your screen.",
+    "description": "Take a screenshot of part of your screen.",
     "keyword": "Printscreen",
     "OS": "Windows"
   },
@@ -1087,7 +1087,7 @@
     "keyword": "",
     "OS": "Windows"
   },
-  { "shortcut": "Windows + Shift + V", "description": "Set focus to a�notification.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Windows + Shift + V", "description": "Set focus to a notification.", "keyword": "", "OS": "Windows" },
   {
     "shortcut": "Windows + Spacebar",
     "description": "Switch input language and keyboard layout.",
@@ -1101,7 +1101,7 @@
   { "shortcut": "Windows + Up arrow", "description": "Maximize the window.", "keyword": "", "OS": "Windows" },
   {
     "shortcut": "Windows + V",
-    "description": "Open the clipboard history.�",
+    "description": "Open the clipboard history.",
     "keyword": "clipboard manager",
     "OS": "Windows"
   },
