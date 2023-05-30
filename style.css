@@ -5,8 +5,8 @@ defaults
 :root {
   --black: #0d0d0d;
   --green: rgb(10, 166, 109);
-  --grey: rgb(194, 194, 194);
-  --grey-text: rgb(155, 155, 155);
+  --grey: rgb(227, 227, 227);
+  --grey-text: rgb(134, 134, 134);
   --white: #fefefe;
 
   --font-size-default: 1rem;
@@ -72,13 +72,23 @@ header img {
   width: auto;
 }
 
+/* footer {
+  background: var(--white);
+  bottom: 0;
+  color: var(--grey-text);
+  min-height: 40px;
+  padding-top: 8px;
+  position: absolute;
+  text-align: center;
+  width: 95%;
+} */
+
 footer {
   background: var(--white);
   color: var(--grey-text);
-  min-height: 40px;
   margin: 0 auto;
+  min-height: 40px;
   padding-top: 8px;
-  position: relative;
   text-align: center;
   width: 95%;
 }
@@ -126,7 +136,7 @@ main p {
 }
 
 .osOption {
-  border: 2px solid var(--grey);
+  background: var(--grey);
   border-radius: 5px;
   color: var(--black);
   height: 30px;
@@ -153,7 +163,6 @@ main p {
 
 .selected {
   background: var(--green);
-  border-color: var(--green);
   color: var(--white);
 }
 
@@ -172,8 +181,17 @@ main p {
   width: 20px;
 }
 
+.searchbox,
+.searchbox input {
+  background: var(--grey);
+}
+
+.searchbox:focus-within,
+.searchbox input:focus {
+  background: var(--white);
+}
+
 .searchbox {
-  border: 1px solid var(--grey);
   border-radius: 10px;
   height: 40px;
   position: relative;
@@ -277,7 +295,6 @@ main p {
   }
 
   .searchbox span {
-    background: var(--grey);
     border-radius: 5px;
     color: var(--black);
     display: inline;
