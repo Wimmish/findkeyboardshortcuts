@@ -84,7 +84,6 @@ function showResults() {
   const resultsContainer = document.getElementById("resultsContainer");
   resultsContainer.style.display = "block";
 }
-
 const searchInput = document.getElementById("searchInput");
 searchInput.addEventListener("input", handleSearchInput);
 searchInput.addEventListener("blur", clearSearch);
@@ -93,17 +92,20 @@ function handleKeyDown(event) {
   const key = event.key;
   const target = event.target;
 
-  if (target === searchInput) {
-    return; // Ignore keyboard shortcuts if the search input has focus
-  }
-
   if (key === "/") {
-    event.preventDefault(); // Prevent '/' character from being typed in the search box
-    const searchInput = document.getElementById("searchInput");
-    searchInput.focus();
+    if (target !== searchInput) {
+      event.preventDefault();
+      searchInput.focus();
+    }
   } else if (key === "Escape") {
-    const searchInput = document.getElementById("searchInput");
-    searchInput.blur(); // Remove focus from search box
+    if (target === searchInput) {
+      // Additional logic to handle Escape key when focus is on search input
+      const searchInput = document.getElementById("searchInput");
+      searchInput.blur(); // Remove focus from search box
+    } else {
+      const searchInput = document.getElementById("searchInput");
+      searchInput.blur();
+    }
   } else if (key >= "1" && key <= "3") {
     const osOptions = document.querySelectorAll(".osOption");
     const selectedOption = document.querySelector(".osOption.selected");
