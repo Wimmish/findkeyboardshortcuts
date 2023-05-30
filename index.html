@@ -38,36 +38,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Cousine:wght@400;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <div class="wrapper">
-      <main>
-        <header>
-          <img src="assets/fks-logo.svg" alt="Find Keyboard Shortcuts logo" />
-          <h1>Find Keyboard Shortcuts</h1>
-        </header>
-        <p>
-          Keyboard shortcuts help you to get more out of your Mac and PC, and to do things faster. This site helps you
-          find them. Select the OS and start typing what you want to do. For example: "Find items in a document” or
-          "Search".
-        </p>
-        <div class="app">
-          <div id="osOptions">
-            <div class="osOption selected" data-value="macOS">macOS<span>(1)</span></div>
-            <div class="osOption" data-value="Windows">Windows<span>(2)</span></div>
-          </div>
-          <div class="searchbox">
-            <input type="text" id="searchInput" placeholder="Search..." />
-            <span>/</span>
-            <!-- <button id="clearButton">Clear</button> -->
-          </div>
-
-          <div id="resultsContainer"></div>
+    <main>
+      <header>
+        <img src="assets/fks-logo.svg" alt="Find Keyboard Shortcuts logo" />
+        <h1>Find Keyboard Shortcuts</h1>
+      </header>
+      <p>
+        Keyboard shortcuts help you to get more out of your Mac and PC, and to do things faster. This site helps you
+        find them. Select the OS and start typing what you want to do. For example: "Find items in a document” or
+        "Search".
+      </p>
+      <div class="app">
+        <div id="osOptions">
+          <div class="osOption selected" data-value="macOS">macOS<span>(1)</span></div>
+          <div class="osOption" data-value="Windows">Windows<span>(2)</span></div>
         </div>
-      </main>
-      <footer>
-        © 2023 | made by <a href="https://twitter.com/wimpstm">wim</a> | hosted on
-        <a href="https://github.com/">github</a>
-      </footer>
-    </div>
+        <div class="searchbox">
+          <input type="text" id="searchInput" placeholder="Search..." />
+          <span>/</span>
+          <!-- <button id="clearButton">Clear</button> -->
+        </div>
+
+        <div id="resultsContainer"></div>
+      </div>
+    </main>
+    <footer>
+      © 2023 | made by <a href="https://twitter.com/wimpstm">wim</a> | hosted on
+      <a href="https://github.com/">github</a>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
