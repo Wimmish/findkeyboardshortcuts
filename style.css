@@ -65,6 +65,11 @@ a {
   font-weight: bold;
 }
 
+.wrapper {
+  min-height: 100vh;
+  position: relative;
+}
+
 header img {
   display: block;
   height: 60px;
