@@ -91,6 +91,11 @@ searchInput.addEventListener("blur", clearSearch);
 
 function handleKeyDown(event) {
   const key = event.key;
+  const target = event.target;
+
+  if (target === searchInput) {
+    return; // Ignore keyboard shortcuts if the search input has focus
+  }
 
   if (key === "/") {
     event.preventDefault(); // Prevent '/' character from being typed in the search box
