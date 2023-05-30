@@ -77,8 +77,8 @@ function clearSearch() {
   const resultsContainer = document.getElementById("resultsContainer");
 
   searchInput.value = "";
-  /*resultsContainer.style.display = "none";
-}*/
+  /*resultsContainer.style.display = "none";*/
+}
 
 function showResults() {
   const resultsContainer = document.getElementById("resultsContainer");
