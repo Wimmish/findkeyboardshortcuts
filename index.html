@@ -1,10 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Item Search</title>
+    <title>Find Keyboard Shortcuts</title>
+    <link rel="icon" type="image/png" href="assets/fks-icon.png" />
+
+    <link rel="canonical" href="https://findkeyboardshortcuts.com/" />
+    <meta
+      name="description"
+      content="Find the keyboard shortcuts that help you to get more out of your Mac and PC, and to do things faster."
+    />
+    <meta property="og:title" content="Keyboard shortcuts for macOS and Windows" />
+    <meta
+      property="og:description"
+      content="Find the keyboard shortcuts that help you to get more out of your Mac and PC, and to do things faster."
+    />
+    <meta property="og:url" content="https://findkeyboardshortcuts.com/" />
+    <meta property="og:site_name" content="Find Keyboard Shortcuts" />
+
+    <meta property="og:image" content="https://findkeyboardshortcuts.com/assets/fks-icon.png" />
+    <meta property="og:image:secure_url" content="https://findkeyboardshortcuts.com/assets/fks-icon.png" />
+
+    <meta name="twitter:site" content="@wimpstm" />
+    <meta name="twitter:creator" content="@wimpstm" />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:description"
+      content="Find the keyboard shortcuts that help you to get more out of your Mac and PC, and to do things faster."
+    />
+    <meta name="twitter:title" content="Keyboard shortcuts for macOS and Windows" />
 
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,22 +39,19 @@
   </head>
   <body>
     <main>
-      <h1>Find Keyboard Shortcuts</h1>
+      <header>
+        <img src="assets/fks-logo.svg" alt="Find Keyboard Shortcuts logo" />
+        <h1>Find Keyboard Shortcuts</h1>
+      </header>
       <p>
-        Keyboard shortcuts help you to get more Mac, PC and iPad, and to do things faster. Find the most used keyboard
-        shortcuts by selecting the OS and typing what you want to do. For example: "Find items in a document or open a
-        Find window" or "Search".
+        Keyboard shortcuts help you to get more out of your Mac and PC, and to do things faster. This site helps you
+        find them. Select the OS and start typing what you want to do. For example: "Find items in a document” or
+        "Search".
       </p>
       <div class="app">
-        <!-- <select id="osSelect">
-          <option value="macOS">macOS</option>
-          <option value="iPadOS">iPadOS</option>
-          <option value="Windows">Windows</option>
-        </select> -->
         <div id="osOptions">
-          <div class="osOption selected" data-value="macOS">macOS</div>
-          <div class="osOption" data-value="iPadOS">iPadOS</div>
-          <div class="osOption" data-value="Windows">Windows</div>
+          <div class="osOption selected" data-value="macOS">macOS<span>(1)</span></div>
+          <div class="osOption" data-value="Windows">Windows<span>(2)</span></div>
         </div>
         <div class="searchbox">
           <input type="text" id="searchInput" placeholder="Search..." />
@@ -39,7 +62,10 @@
         <div id="resultsContainer"></div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      © 2023 | made by <a href="https://twitter.com/wimpstm">wim</a> | hosted on
+      <a href="https://github.com/">github</a>
+    </footer>
     <script src="script.js"></script>
   </body>
 </html>
