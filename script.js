@@ -30,15 +30,20 @@ function renderItems(searchText, selectedOS) {
     } else {
       filteredItems.forEach((item) => {
         const itemElement = document.createElement("div");
-        const shortcutElement = document.createElement("span");
-        shortcutElement.classList.add("shortcut");
-        shortcutElement.textContent = item.shortcut;
-        const descriptionElement = document.createElement("span");
-        descriptionElement.classList.add("description");
-        descriptionElement.textContent = item.description;
-        itemElement.appendChild(shortcutElement);
-        itemElement.appendChild(descriptionElement);
-        resultsContainer.appendChild(itemElement);
+      const shortcutContainer = document.createElement("div");
+      const shortcutElement = document.createElement("span");
+      shortcutElement.classList.add("shortcut");
+      shortcutElement.textContent = item.shortcut;
+      const descriptionElement = document.createElement("div");
+      descriptionElement.classList.add("description");
+      descriptionElement.textContent = item.description;
+      // itemElement.appendChild(document.createTextNode("Shortcut: "));
+      itemElement.appendChild(shortcutContainer);
+      shortcutContainer.appendChild(shortcutElement);
+
+      itemElement.appendChild(descriptionElement);
+      // itemElement.appendChild(document.createTextNode(item.description));
+      resultsContainer.appendChild(itemElement);
       });
     }
   });
