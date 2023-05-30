@@ -173,7 +173,7 @@ main p {
 }
 
 .searchbox {
-  border: 2px solid var(--grey);
+  border: 1px solid var(--grey);
   border-radius: 10px;
   height: 40px;
   position: relative;
