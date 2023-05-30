@@ -203,11 +203,13 @@ main p {
 }
 
 #resultsContainer {
+  background: var(--white);
   box-sizing: border-box;
   height: 400px;
   margin: 10px auto;
   overflow: scroll;
   padding: 5px;
+  z-index: 1;
 }
 
 #resultsContainer > div {
