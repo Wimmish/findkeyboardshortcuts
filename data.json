@@ -553,6 +553,24 @@
     "OS": "macOS"
   },
   {
+    "shortcut": "Option + F2",
+    "description": "Move focus to Menubar.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Option + F3",
+    "description": "Move focus to Dock.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
+    "shortcut": "Option + F5",
+    "description": "Move focus to the window toolbar.",
+    "keyword": "",
+    "OS": "macOS"
+  },
+  {
     "shortcut": "Shift + Up Arrow",
     "description": "Extend text selection to the line above, to the nearest character boundary at the same horizontal location.",
     "keyword": "",
