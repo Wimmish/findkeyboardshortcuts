@@ -1,3 +1,15 @@
+function loadJSON(callback) {
+  const xhr = new XMLHttpRequest();
+  xhr.overrideMimeType("application/json");
+  xhr.open("GET", "data.json", true);
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && xhr.status === 200) {
+      callback(JSON.parse(xhr.responseText));
+    }
+  };
+  xhr.send(null);
+}
+
 function renderItems(searchText, selectedOS) {
   const resultsContainer = document.getElementById("resultsContainer");
   resultsContainer.innerHTML = ""; // Clear previous results
