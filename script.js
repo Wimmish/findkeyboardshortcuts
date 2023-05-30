@@ -72,12 +72,12 @@ function handleOSOptionClick(event) {
   handleSearchInput();
 }
 
-/*function clearSearch() {
+function clearSearch() {
   const searchInput = document.getElementById("searchInput");
   const resultsContainer = document.getElementById("resultsContainer");
 
   searchInput.value = "";
-  resultsContainer.style.display = "none";
+  /*resultsContainer.style.display = "none";
 }*/
 
 function showResults() {
