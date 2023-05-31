@@ -200,6 +200,7 @@ main p {
 
 .searchbox input {
   border: none;
+  box-sizing: border-box;
   font-family: "Cousine", monospace;
   font-size: var(--font-size-default);
   height: 30px;
@@ -212,7 +213,6 @@ main p {
 
 .searchbox input:focus {
   border-radius: 10px;
-  box-sizing: border-box;
   height: 40px;
   left: 0;
   outline: 2px solid var(--green);
