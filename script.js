@@ -76,8 +76,10 @@ function clearSearch() {
   const searchInput = document.getElementById("searchInput");
   const resultsContainer = document.getElementById("resultsContainer");
 
-  /*searchInput.value = "";
-  resultsContainer.style.display = "none";*/
+ /*
+  searchInput.value = "";
+  resultsContainer.style.display = "none";
+  */
 }
 
 function showResults() {
