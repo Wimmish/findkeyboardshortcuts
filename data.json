@@ -1,6 +1,11 @@
 [
   { "shortcut": "CMD + ;", "description": "Find misspelled words in the document.", "keyword": "", "OS": "macOS" },
-  { "shortcut": "CMD + [", "description": "Go backward in browser history.", "keyword": "", "OS": "macOS" },
+  {
+    "shortcut": "CMD + [",
+    "description": "Go backward in browser history.",
+    "keyword": "navigation navigate",
+    "OS": "macOS"
+  },
   { "shortcut": "CMD + [", "description": "Go to the previous tab.", "keyword": "", "OS": "macOS" },
   { "shortcut": "CMD + ]", "description": "Go forward in browser history.", "keyword": "", "OS": "macOS" },
   { "shortcut": "CMD + ]", "description": "Go to the next tab.", "keyword": "", "OS": "macOS" },
@@ -614,7 +619,7 @@
     "keyword": "",
     "OS": "Windows"
   },
-  { "shortcut": "Alt + Left arrow", "description": "Go back.", "keyword": "", "OS": "Windows" },
+  { "shortcut": "Alt + Left arrow", "description": "Go back.", "keyword": "navigation navigate", "OS": "Windows" },
   {
     "shortcut": "Alt + Left arrow",
     "description": "File Explorer: view the previous folder.",
