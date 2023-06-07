@@ -296,9 +296,8 @@ main p {
 
   .app,
   .searchbox input:focus,
-  #resultsContainer,
-  #resultsContainer > div {
-    width: 550px;
+  #resultsContainer {
+    width: 570px;
   }
 
   .searchbox span {
