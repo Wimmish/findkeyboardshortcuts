@@ -86,7 +86,7 @@ header img {
 footer {
   background: var(--white);
   color: var(--grey-text);
-  margin: 0 auto;
+  margin: 50px auto 0 auto;
   min-height: 40px;
   padding-top: 8px;
   position: absolute;
@@ -118,7 +118,7 @@ main p {
 }
 
 .app {
-  margin: 50px auto;
+  margin: 50px auto 0 auto;
   position: relative;
 }
 
@@ -246,7 +246,6 @@ main p {
   z-index: 1;
 }
 
-
 #resultsContainer > div {
   box-sizing: border-box;
   display: flex;
@@ -294,6 +293,7 @@ main p {
   main h1 {
     width: 95%;
   }
+
   .app,
   .searchbox input:focus,
   #resultsContainer,
