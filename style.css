@@ -212,7 +212,7 @@ main p {
   position: absolute;
   left: 10px;
   top: 0px;
-  width: 450px;
+  /*width: 450px;*/
 }
 
 .searchbox input:focus {
