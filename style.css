@@ -177,28 +177,17 @@ main p {
   vertical-align: middle;
 }
 
-.searchbox,
-.searchbox input {
-  background: var(--grey);
-}
-
 .osOption span,
 .searchbox span {
   position: absolute;
   text-align: center;
-}
-
-.osOption span {
   width: 20px;
 }
 
-.searchbox span {
-  color: var(--grey-text);
-  font-size: var(--font-size-small);
-  width: 80px;
+.searchbox,
+.searchbox input {
+  background: var(--grey);
 }
-
-
 
 .searchbox:focus-within,
 .searchbox input:focus {
@@ -313,7 +302,7 @@ main p {
 
   .searchbox span {
     border-radius: 5px;
-    /* color: var(--black); */
+    color: var(--black);
     display: inline;
     height: 40px;
     line-height: 40px;
