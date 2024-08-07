@@ -108,16 +108,7 @@ function handleKeyDown(event) {
       const searchInput = document.getElementById("searchInput");
       searchInput.blur();
     }
-  } else if (key >= "1" && key <= "3") {
-    const osOptions = document.querySelectorAll(".osOption");
-    const selectedOption = document.querySelector(".osOption.selected");
-
-    const selectedIndex = parseInt(key) - 1;
-    if (selectedIndex >= 0 && selectedIndex < osOptions.length) {
-      selectedOption.classList.remove("selected");
-      osOptions[selectedIndex].classList.add("selected");
-      handleSearchInput();
-    }
+    handleSearchInput();
   }
 }
 
