@@ -43,21 +43,24 @@
         <img src="assets/fks-logo.png" alt="Find Keyboard Shortcuts logo" />
         <h1>Find Keyboard Shortcuts</h1>
       </header>
-      <p>Keyboard shortcuts help you to get more out of your Mac, and to do things faster. This site helps you find them.</p>
+      <p>Keyboard shortcuts help you to get more out of your Mac and PC, and to do things faster. This site helps you find them.</p>
 
-      <p>Enter what you want to do and find the keyboard shortcut. For example: &quot;Find items in a document”, &quot;Search”, “Screenshot” or “Go back”</p>
+      <p>Select the OS and start typing what you want to do. For example: &quot;Find items in a document”, &quot;Search”, “Screenshot” or “Go back”</p>
       <div class="app">
+        <div id="osOptions">
+          <div class="osOption selected" data-value="macOS">macOS<span>(1)</span></div>
+          <div class="osOption" data-value="Windows">Windows<span>(2)</span></div>
+        </div>
         <div class="searchbox">
           <input type="text" id="searchInput" placeholder="Search..." />
-          <span id="shortcutKey">⌘ + K</span>
+          <span>/</span>
           <!-- <button id="clearButton">Clear</button> -->
         </div>
-        
 
         <div id="resultsContainer"></div>
       </div>
       <footer>
-        © 2024 | made by <a href="https://x.com/wimpstm">wim</a> | hosted on
+        © 2023 | made by <a href="https://twitter.com/wimpstm">wim</a> | hosted on
         <a href="https://github.com/">github</a>
       </footer>
     </main>
