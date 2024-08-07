@@ -94,7 +94,7 @@ function handleKeyDown(event) {
   const key = event.key;
   const target = event.target;
 
-  if (key === "/") {
+  if  ((key === 'k' && (event.metaKey))) {
     if (target !== searchInput) {
       event.preventDefault();
       searchInput.focus();
