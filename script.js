@@ -76,10 +76,6 @@ function clearSearch() {
   const searchInput = document.getElementById("searchInput");
   const resultsContainer = document.getElementById("resultsContainer");
 
- /*
-  searchInput.value = "";
-  resultsContainer.style.display = "none";
-  */
 }
 
 function showResults() {
@@ -94,7 +90,7 @@ function handleKeyDown(event) {
   const key = event.key;
   const target = event.target;
 
-  if (key === "/") {
+  if  ((key === 'k' && (event.metaKey))) {
     if (target !== searchInput) {
       event.preventDefault();
       searchInput.focus();
@@ -129,3 +125,5 @@ const osOptions = document.querySelectorAll(".osOption");
 osOptions.forEach((option) => {
   option.addEventListener("click", handleOSOptionClick);
 });
+
+
