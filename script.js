@@ -52,10 +52,10 @@ function renderItems(searchText, selectedOS) {
 function handleSearchInput() {
   const searchInput = document.getElementById("searchInput");
   const searchText = searchInput.value.trim();
-  const selectedOS = document.querySelector(".osOption.selected").dataset.value;
+  //const selectedOS = document.querySelector(".osOption.selected").dataset.value;
 
   if (searchText.length > 0) {
-    renderItems(searchText, selectedOS);
+    renderItems(searchText);
   } else {
     const resultsContainer = document.getElementById("resultsContainer");
     resultsContainer.innerHTML = "";
