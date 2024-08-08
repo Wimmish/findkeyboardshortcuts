@@ -21,8 +21,8 @@ function renderItems(searchText, selectedOS) {
       const shortcutMatch = item.shortcut.toLowerCase().includes(searchText.toLowerCase());
       const descriptionMatch = item.description.toLowerCase().includes(searchText.toLowerCase());
       const keywordMatch = item.keyword.toLowerCase().includes(searchText.toLowerCase());
-      const osMatch = item.OS === selectedOS;
-      return (shortcutMatch || descriptionMatch || keywordMatch) && osMatch;
+      // const osMatch = item.OS === selectedOS;
+      return (shortcutMatch || descriptionMatch || keywordMatch);
     });
 
     if (filteredItems.length === 0) {
@@ -62,16 +62,6 @@ function handleSearchInput() {
   }
 }
 
-function handleOSOptionClick(event) {
-  const selectedOption = document.querySelector(".osOption.selected");
-  selectedOption.classList.remove("selected");
-
-  const clickedOption = event.currentTarget;
-  clickedOption.classList.add("selected");
-
-  handleSearchInput();
-}
-
 function clearSearch() {
   const searchInput = document.getElementById("searchInput");
   const resultsContainer = document.getElementById("resultsContainer");
@@ -94,7 +84,7 @@ function handleKeyDown(event) {
   const key = event.key;
   const target = event.target;
 
-  if  ((key === 'k' && (event.metaKey))) {
+    if  ((key === 'k' && (event.metaKey))) {
     if (target !== searchInput) {
       event.preventDefault();
       searchInput.focus();
@@ -107,17 +97,13 @@ function handleKeyDown(event) {
     } else {
       const searchInput = document.getElementById("searchInput");
       searchInput.blur();
-      handleSearchInput();
     }
-    
-  }
+  } 
+      // handleSearchInput();
 }
 
 document.addEventListener("keydown", handleKeyDown);
 
 searchInput.addEventListener("focus", showResults);
 
-const osOptions = document.querySelectorAll(".osOption");
-osOptions.forEach((option) => {
-  option.addEventListener("click", handleOSOptionClick);
-});
+
