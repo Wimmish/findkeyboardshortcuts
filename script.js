@@ -107,8 +107,9 @@ function handleKeyDown(event) {
     } else {
       const searchInput = document.getElementById("searchInput");
       searchInput.blur();
+      handleSearchInput();
     }
-    handleSearchInput();
+    
   }
 }
 
