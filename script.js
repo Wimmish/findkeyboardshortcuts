@@ -99,7 +99,7 @@ function handleKeyDown(event) {
       searchInput.blur();
     }
   } 
-      // handleSearchInput();
+    handleSearchInput();
 }
 
 document.addEventListener("keydown", handleKeyDown);
