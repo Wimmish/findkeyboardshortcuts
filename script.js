@@ -10,7 +10,7 @@ function loadJSON(callback) {
   xhr.send(null);
 }
 
-function renderItems(searchText, selectedOS) {
+function renderItems(searchText) {
   loadJSON(function (data) {
     const items = data;
 
